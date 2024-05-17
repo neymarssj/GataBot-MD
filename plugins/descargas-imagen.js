@@ -12,10 +12,10 @@ conn.sendButton(m.chat, `💞 ${mid.buscador}: ${text}`, wm, link, [['🔄 𝙎�
 } catch (e) {
 console.log(`❗❗ ${lenguajeGB['smsMensError2']()} ${usedPrefix + command} ❗❗`)
 console.log(e)
-handler.money = false
+
 }}
 handler.help = ['gimage <query>', 'imagen <query>']
 handler.tags = ['internet', 'tools']
 handler.command = /^(gimage|image|imagen|jpg)$/i
-handler.money = 50
+
 export default handler
